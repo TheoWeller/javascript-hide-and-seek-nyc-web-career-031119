@@ -13,8 +13,8 @@ function deepestChild() {
   return document.querySelector('#grand-node div div div div');
 }
 
-function increaseRankBy(num) {
+function increaseRankBy(n) {
    let list = document.querySelector('.ranked-list');
    list = list.children
-   for (const item of list) {item.innerText = item.innerText + num }
+   for (const item of list) {item.innerText = item.innerText + n }
 }
