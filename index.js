@@ -16,6 +16,7 @@ function deepestChild() {
 function increaseRankBy(num) {
    let list = document.querySelector('.ranked-list');
    list = list.children
-   return for (let item of list) {item.innerText + num }
+   for (let item of list) {item.innerText + num }
+   return list;
 
 }
