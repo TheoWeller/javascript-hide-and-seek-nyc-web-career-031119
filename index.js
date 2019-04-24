@@ -17,6 +17,4 @@ function increaseRankBy(num) {
    let list = document.querySelector('.ranked-list');
    list = list.children
    for (let item of list) {item.innerText + num }
-   return list;
-
 }
